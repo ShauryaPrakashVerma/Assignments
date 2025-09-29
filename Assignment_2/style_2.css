@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-image: url(./assignment_2.jpg); */
+}
+
+@font-face {
+  font-family: batman;
+  src: url(./GothamNightsBold-Wrp4.ttf);
+}
+
+#whole {
+  height: 100%;
+  width: 100%;
+  background-image: url(./assignment_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  padding: 20px;
+}
+
+#title {
+  width: fit-content;
+  font-family: batman;
+  margin: auto;
+  font-size: 200px;
+  color: #fffff7;
+}
+
+#button {
+  width: fit-content;
+  margin: 100px auto;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  width: 80px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+}
