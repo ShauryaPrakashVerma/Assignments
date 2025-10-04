@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: dotted;
+  src: url(./Ndot-55-DoenNkNm.ttf);
+}
+
+@font-face {
+  font-family: plain;
+  src: url(./korataki-rg-3cf0d889-B6eTgmP5.ttf);
+}
+
+#whole {
+  height: 100%;
+  width: 100%;
+}
+#nav {
+  background: black;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* padding-left: 29px;
+  padding-right: 15px; */
+  padding: 15px 10px 0px 29px;
+  align-items: center;
+}
+
+#leftLogo {
+  height: 120px;
+  width: 380px;
+  background-image: url(./Group5.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 45px;
+  color: white;
+  font-family: dotted;
+}
+/* ------------------------------------------------------------- */
+#centerSearch {
+  height: 60px;
+  width: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./Group4.png);
+  background-size: cover;
+}
+input[type="text"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+/* the below part is googled */
+::placeholder {
+  color: #999d9c;
+}
+
+/* ----------------------------------------------------------------------- */
+
+#rightOptions {
+  display: flex;
+  gap: 40px;
+}
+.options {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-image: url(./Group\ 1.svg);
+  background-size: cover;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  font-family: plain;
+  font-size: 16px;
+}
+
+/* ------------------------------------------------------------------------ */
+#content {
+  background-color: black;
+  position: relative;
+  height: 85%;
+  width: 100%;
+}
+#lineBackground {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+/* all the lines are placed using position: absolute */
+.line {
+  position: absolute;
+  border: 1px solid white;
+}
+#line1 {
+  height: 210px;
+  top: -45px;
+  left: 450px;
+  rotate: -55deg;
+}
+#line2 {
+  width: 280px;
+  top: 118px;
+  left: 538px;
+}
+#line3 {
+  width: 150px;
+  top: 155px;
+  left: 810px;
+  rotate: 30deg;
+}
+#line4 {
+  width: 952px;
+  left: 950px;
+  top: 194px;
+}
+#line5 {
+  width: 290px;
+  top: 190px;
+  left: 725px;
+  rotate: 30deg;
+}
+#line6 {
+  width: 200px;
+  left: 995px;
+  top: 262px;
+}
+#line7 {
+  width: 100px;
+  top: 288px;
+  left: 1190px;
+  rotate: 30deg;
+}
+#line8 {
+  width: 145px;
+  top: 312px;
+  left: 1283px;
+}
+#line9 {
+  width: 90px;
+  top: 275px;
+  left: 1405px;
+  rotate: -60deg;
+}
+#line10 {
+  width: 430px;
+  top: 235px;
+  left: 1473px;
+}
+#line11 {
+  width: 845px;
+  top: 670px;
+}
+#line12 {
+  width: 90px;
+  rotate: -35deg;
+  top: 644px;
+  left: 835px;
+}
+#line13 {
+  width: 985px;
+  top: 618px;
+  left: 917px;
+}
+/* --------------------------------------------------------------------- */
+
+#textTop {
+  position: absolute;
+  width: 1000px;
+  height: 150px;
+  font-family: plain;
+  font-size: 28px;
+  color: #999d9c;
+  top: 350px;
+  left: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#textBottom {
+  width: 600px;
+  height: 100px;
+  position: absolute;
+  font-family: dotted;
+  font-size: 22px;
+  top: 615px;
+  left: 114px;
+  color: #999d9c;
+}
+
+#images {
+  width: 300px;
+  height: 600px;
+  top: 100px;
+  left: 1100px;
+  position: relative;
+}
+#white {
+  position: absolute;
+  top: 60px;
+  left: 130px;
+  width: 310px;
+  rotate: -30deg;
+}
+#black {
+  position: absolute;
+  width: 310px;
+  left: 40px;
+  rotate: -30deg;
+}
