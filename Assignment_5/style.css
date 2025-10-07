@@ -1,0 +1,215 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#left {
+  width: 4%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1% 0%;
+  border-right: 1px solid #f1f1f1;
+  background: white;
+  position: static;
+}
+#topleft {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+/* #topleft div ,#bottomleft div {
+  cursor: pointer;
+} */
+#topleft div:hover,
+#bottomleft div:hover {
+  cursor: pointer;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+.ri-pinterest-fill {
+  color: #fc0000;
+}
+#bottomleft {
+  font-size: 30px;
+}
+/* ------------------------------------------------------------------- */
+#right {
+  width: 96%;
+  height: 100%;
+}
+
+#search {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  /* position: fixed; */
+}
+#bar {
+  width: 97%;
+}
+
+#realsearch {
+  width: 100%;
+  height: 48px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#realsearch:hover {
+  background-color: #bebebea4;
+}
+
+#myaccount {
+  font-size: 40px;
+  color: #bebebea4;
+}
+#more {
+  font-size: 40px;
+  color: #bebebea4;
+}
+
+#myaccount:hover,
+#more:hover {
+  cursor: pointer;
+}
+/* ------------------------------------------------------------------- */
+
+#nav {
+  width: 100%;
+  height: 6%;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* position: ; */
+}
+#nav h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+#nav h4:hover {
+  cursor: pointer;
+}
+.ri-arrow-drop-right-line {
+  font-size: 50px;
+}
+
+#feed {
+  width: 100%;
+  height: 86%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#col1,
+#col2,
+#col3,
+#col4,
+#col5,
+#col6,
+#col7 {
+  width: 240px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.imgcontainer {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgcontainer :hover {
+  cursor: pointer;
+}
+
+.imgcontainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.options {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.637);
+  position: absolute;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.optionsTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.optionsTop .playlist button {
+  background: transparent;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  color: white;
+}
+.optionsTop .playlist button:hover {
+  background: #0000001c;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  color: white;
+}
+
+.optionsTop button {
+  background: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.optionsBottom {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  gap: 5px;
+}
+.optionsBottom div {
+  background: white;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.imgcontainer:hover .options {
+  bottom: 0%;
+}
