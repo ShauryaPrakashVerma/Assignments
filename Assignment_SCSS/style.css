@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+main section {
+  height: 95%;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 2;
+  height: 100%;
+}
+main .col1 {
+  background-image: url(https://i.pinimg.com/736x/05/13/2d/05132d375299514b325a66c74147fb5b.jpg);
+}
+main .col2 {
+  background-image: url(https://i.pinimg.com/736x/90/a9/69/90a9692573e5d90d410c9055da2ffa47.jpg);
+}
+main .col3 {
+  background-image: url(https://i.pinimg.com/1200x/bd/b8/32/bdb832d9e4cd3b26394455e17d7497a0.jpg);
+}
+main .col4 {
+  background-image: url(https://i.pinimg.com/736x/e9/65/34/e9653441e118c1354fd7898f0eaa8587.jpg);
+}
+main .col5 {
+  background-image: url(https://i.pinimg.com/736x/28/f8/14/28f814b155cfd288705297396f63d4d2.jpg);
+}/*# sourceMappingURL=style.css.map */
